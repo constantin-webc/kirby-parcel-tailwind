@@ -1,0 +1,7 @@
+/* @import './../assets/css/starterkit.css'; */
+@import './css/base/test.css';
+@import './css/components/test.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
