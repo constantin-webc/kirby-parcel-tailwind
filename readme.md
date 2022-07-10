@@ -9,7 +9,7 @@
 **Kpt starterkit** uses kirby's starterkit sample website. All Kirby's starterkit files are in the repo, you just need to clone Kirby's core folder.
 
 1. Download or clone *"kpt"* repo ```git clone https://github.com/constantinjoly/kirby-parcel-tailwind.git your-project-name```
-2. [Download](https://github.com/getkirby/kirby) or clone Kirby's core ```git clone https://github.com/getkirby/kirby.git your-project-name```
+2. [Download](https://github.com/getkirby/kirby) or clone Kirby's core in your project folder ```git clone https://github.com/getkirby/kirby.git ```
 3. ```npm install```
 4. In the ``` package.json ``` file, on line 8 change the ``` http://kpt.local ``` by your local project url.
 5. Run ``` npm run watch ``` to start the development server and use Browsersync for live reload. Your website should open automatically in your browser.
