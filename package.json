@@ -1,7 +1,12 @@
 {
   "name": "kirby-parcel-tailwind",
   "version": "1.0.0",
-  "description": "",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "description": "Use Kirby CMS with Parcel.js and Tailwind CSS",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/constantinjoly/kirby-parcel-tailwind"
+},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rm -rf dist/*",
