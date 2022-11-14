@@ -6,11 +6,11 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/constantinjoly/kirby-parcel-tailwind"
-},
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rm -rf dist/*",
-    "browsersync": "browser-sync start --proxy 'http://kpt.local' --files \"**/*\"",
+    "browsersync": "browser-sync start --proxy 'http://salsa-nice-v2.local' --files \"./site/**/*\" \"./src/**/*\"",
     "dev": "parcel watch ./src/index.css ./src/main.js --no-hmr --dist-dir ./dist --public-url .",
     "build": "parcel build --no-content-hash --no-source-maps ./src/index.css ./src/main.js --dist-dir ./dist --public-url .",
     "watch": "concurrently \"npm run browsersync\" \"npm run dev\"",
